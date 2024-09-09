@@ -45,8 +45,9 @@ img {
 }
 
 .container {
-    margin: 0 auto;
-    width: 90%;
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
 }
 
 /* Cabeçalho */
@@ -149,7 +150,7 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     justify-content: center;
-    gap: 1.5rem;
+    gap: 20px;
 }
 
 .post-caixa {
@@ -246,7 +247,18 @@ img {
     color: var(--title-color);
 }
 
-.imagem {
+.categoria-voltar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoria-voltar a {
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+.imagem-post {
     margin-top: 32px;
     background: url(assets/suplementos.jpg);
     background-repeat: no-repeat;
@@ -265,4 +277,84 @@ img {
     font-size: 1rem;
     line-height: 1.7rem;
     text-align: justify;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    padding: 5px 0;
+}
+
+/* Referências */
+.referencia {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.referencia a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--second-color);
+    justify-content: center;
+}
+
+.referencia h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0 0;
+    font-size: 36px;
+    color: var(--title-color);
+}
+
+.link-referencia {
+    list-style: none;
+}
+
+.link-referencia a {
+    margin: 1rem 0;
+    text-decoration: none;
+}
+
+/* Alunos */
+
+.imagem-alunos {
+    margin-top: 32px;
+    background: url(assets/suplementos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.aluno {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.aluno a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--second-color);
+    justify-content: center;
+}
+
+.aluno h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0 0;
+    font-size: 36px;
+    color: var(--title-color);
 }
