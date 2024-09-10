@@ -275,6 +275,97 @@ img {
     box-shadow: var(--box-shadow);
 }
 
+.imagem-post-p1 {
+    margin-top: 32px;
+    background: url(assets/Suplementos\ alimentares\ o\ que\ são.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p2 {
+    margin-top: 32px;
+    background: url(assets/Os\ 6\ tipos\ de\ vitaminas\ mais\ importantes\ para\ o\ corpo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p3 {
+    margin-top: 32px;
+    background: url(assets/conheça\ os\ tipos\ de\ proteina\ para\ suplementar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p4 {
+    margin-top: 32px;
+    background: url(assets/minerais.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p5 {
+    margin-top: 32px;
+    background: url(assets/quais\ casos\ sao\ indicados.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p6 {
+    margin-top: 32px;
+    background: url(assets/consulta\ medica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p7 {
+    margin-top: 32px;
+    background: url(assets/academia\ e\ musculação.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
 .texto {
     padding: 32px 0 0;
     color: var(--text-color);
