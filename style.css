@@ -15,6 +15,7 @@
     --text-color: #3B3C4A;
     --title-color: #181A2A;
     --second-color: #4B6BFB;
+    --third-color: #7b93ff;
     --bg-color: #fff;
     --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%);
     --border-color: #E8E8EA;
@@ -366,6 +367,32 @@ img {
     box-shadow: var(--box-shadow);
 }
 
+.imagem-post-p8 {
+    margin-top: 32px;
+    background: url(assets/suplementos\ idosos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p9 {
+    margin-top: 32px;
+    background: url(assets/suplementos\ criancas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
 .texto {
     padding: 32px 0 0;
     color: var(--text-color);
@@ -462,6 +489,10 @@ img {
         margin-right: 1rem;
         width: 97%;
     }
+
+    .texto ul {
+        margin-left: 30px;
+    }
 }
 
 @media (max-width: 880px) {
@@ -519,7 +550,7 @@ img {
     }
 
     .navbar a:hover {
-        background: var(--title-color);
+        background: var(--third-color);
         color: var(--bg-color);
         transition: 0.2s;
     }
@@ -530,5 +561,121 @@ img {
 
     .footer p {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 638px) {
+    .container {
+        width: 95%;
+    }
+
+    .home-texto h1 {
+        font-size: 25px;
+    }
+
+    .texto ul {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 572px) {
+    .container {
+        width: 94.4%;
+    }
+
+    .logo-footer .bx {
+        font-size: 40px;
+    }
+
+    .logo-footer h2 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 456px) {
+    .container {
+        width: 93%;
+    }
+
+    .home-texto h1 {
+        font-size: 22px;
+    }
+
+    .home-texto p {
+        font-size: 14px;
+    }
+
+    .logo-footer .bx {
+        font-size: 40px;
+    }
+
+    .logo-footer h2 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .conteudo-titulo .categoria {
+        font-size: 13px;
+    }
+
+    .categoria-voltar a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 422px) {
+    .container {
+        width: 92.5%;
+    }
+
+    .home-texto h1 {
+        font-size: 20px;
+    }
+
+    .home-texto p {
+        font-size: 12px;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        width: 91.7%;
+    }
+
+    .home-texto h1 {
+        font-size: 18px;
+    }
+
+    .logo-footer h2 {
+        font-size: 16px;
+    }
+
+    .logo-footer .bx {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 372px) {
+    .container {
+        width: 91.5%;
+    }
+
+    .home-texto h1 {
+        font-size: 16px;
+    }
+
+    .home-texto p {
+        font-size: 10px;
     }
 }
