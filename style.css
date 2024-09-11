@@ -366,6 +366,32 @@ img {
     box-shadow: var(--box-shadow);
 }
 
+.imagem-post-p8 {
+    margin-top: 32px;
+    background: url(assets/suplementos\ idosos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.imagem-post-p9 {
+    margin-top: 32px;
+    background: url(assets/suplementos\ criancas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
 .texto {
     padding: 32px 0 0;
     color: var(--text-color);
